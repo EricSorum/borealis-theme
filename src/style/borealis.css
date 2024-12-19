@@ -1,0 +1,43 @@
+.borealis {
+  background: rgb(20 20 20 );
+  color: rgb(240,240,240);
+  border: 1px solid rgb(20 20 20);
+  position: relative;
+}
+
+.borealis::before, .borealis::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+
+  background: 
+  linear-gradient(
+    165deg,
+    rgb(169 53 246 / 40%),
+    rgb(251 128 255 / 60%),
+    rgb(129 171 243 / 80%),
+    rgb(155 234 127)
+  );
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: borealis 60s linear infinite;
+}
+
+@keyframes borealis {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.borealis:after {
+  filter: blur(20px);
+}

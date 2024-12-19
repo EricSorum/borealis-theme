@@ -1,0 +1,14 @@
+
+button {
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+}
+
+button:hover {
+  background: linear-gradient(rgb(20 20 20), rgb(40 40 40))
+}
+
+button:before, button:after {
+  border-radius: 10px;
+}
+
