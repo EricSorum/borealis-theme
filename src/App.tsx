@@ -16,7 +16,7 @@ function App() {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container dropdown-container">
         <h2>Dropdown Menu</h2>
         <div>
           <Dropdown />
