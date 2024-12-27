@@ -20,4 +20,17 @@ h2 {
 
 .dropdown-container {
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+label, input {
+  margin: 1rem;
 }

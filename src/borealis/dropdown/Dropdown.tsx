@@ -1,25 +1,12 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import './Dropdown.css'
 
 export default function Dropdown() {
-  const listRef = useRef<HTMLElement>();
+  // const listRef = useRef<HTMLElement>();
   const [ menuOpen, toggleMenu ] = useState(false);
 
-
-  // const addLineup = useEffect(() => {
-  //   console.log(listRef.current)
-  //   if (listRef.current) {
-  //     const listItems = listRef.current.querySelectorAll('li');
-  //     listItems.forEach((li) => {
-  //       li.classList.add("lineup");
-  //     })
-  //   }
-  // })
   const handleMenu = () => {
     toggleMenu(!menuOpen);
-    console.log(menuOpen)
-    if (menuOpen) {
-    }
   }
 
   return (
@@ -29,7 +16,7 @@ export default function Dropdown() {
       onMouseLeave={()=> handleMenu()}
       onClick={()=> handleMenu()}
     >
-      <button id="dropdown-button">Menu</button>
+      <button id="ropdown-button" className="borealis">Menu</button>
       { menuOpen && (
       <nav id="dropdown-nav">
         <ul>
