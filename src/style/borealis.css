@@ -19,7 +19,7 @@
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: borealis 20s linear infinite;
+  animation: borealis 60s linear infinite;
 }
 
 @keyframes borealis {
