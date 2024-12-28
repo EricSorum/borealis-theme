@@ -1,16 +1,26 @@
+.navbar {
+  background-color: rgb(60 60 60 / 60%);
+  border-radius: 10px;
+}
 
-.card {
-  width: 200px;
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-link {
   border: 1px solid rgb(140 140 140);
   border-radius: var(--border-radius-amount);
-  padding: 2rem;
+  padding: 0.7rem 1rem;
   position: relative;
   overflow: hidden;
   background-color: rgb(20 20 20);
   transition: background-color 0.3s ease-in-out, box-shadow 0.3 ease-in-out;
 }
 
-.card::before {
+.navbar-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -30,11 +40,11 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.card:hover::before {
+.navbar-link:hover::before {
   opacity: 1;
 }
 
-.card:hover {
+.navbar-link:hover {
   box-shadow: 0px 2px 4px rgb(155 234 127 / 60%);
   color: rgb(250 250 250);
 }

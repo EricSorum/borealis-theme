@@ -1,4 +1,5 @@
 import ButtonDefault from "./borealis/buttondefault/ButtonDefault"
+import Navbar from "./borealis/navbar/Navbar"
 import Dropdown from "./borealis/dropdown/Dropdown"
 import Form from "./borealis/form/Form"
 import Card from "./borealis/cards/Card"
@@ -10,6 +11,20 @@ function App() {
     <>
       <div>
         <h1>Borealis Theme</h1>
+      </div>
+
+      <div className="container">
+        <h2>Navbar</h2>
+        <Navbar />
+      </div>
+
+      <div className="container">
+        <h2>Cards</h2>
+        <div className="card-container">
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
 
       <div className="container">
@@ -31,19 +46,12 @@ function App() {
         <Form />
       </div>
 
-      <div className="container">
-        <h2>Cards</h2>
-        <div className="card-container">
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </div>
 
       <div className="container">
         <h2>Table</h2>
         <Table />
       </div>
+
 
     </>
   )
