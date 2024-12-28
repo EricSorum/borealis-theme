@@ -1,0 +1,29 @@
+table {
+  border-bottom: 1px solid rgb(180 180 180);
+  border-collapse: collapse;
+
+}
+
+td, th {
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+
+th, td {
+  /* border: 1px solid white; */
+  border-bottom: 1px solid rgb(180 180 180);
+  border-collapse: collapse;
+}
+
+
+
+tr:hover {
+  background:   linear-gradient(
+    175deg,
+    rgb(169 53 246 / 5%),
+    rgb(251 128 255 / 10%),
+    rgb(129 171 243 / 15%),
+    rgb(155 234 127 / 20%)
+  );
+
+}

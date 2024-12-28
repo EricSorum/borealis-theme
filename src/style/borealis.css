@@ -1,7 +1,4 @@
 .borealis {
-  background: rgb(20 20 20 );
-  color: rgb(240,240,240);
-  border: 1px solid rgb(20 20 20);
   position: relative;
 }
 
@@ -22,7 +19,7 @@
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: borealis 60s linear infinite;
+  animation: borealis 20s linear infinite;
 }
 
 @keyframes borealis {
@@ -38,5 +35,5 @@
 }
 
 .borealis:after {
-  filter: blur(20px);
+  filter: blur(50px);
 }

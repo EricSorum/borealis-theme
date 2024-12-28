@@ -1,0 +1,21 @@
+
+.card {
+  width: 200px;
+  border: 1px solid rgb(140 140 140);
+  border-radius: var(--border-radius-amount);
+  padding: 2rem;
+}
+
+.card:hover {
+  /* box-shadow: 0px 2px 2px rgb(155 234 127 / 40%); */
+}
+
+.card:hover {
+  background:   linear-gradient(
+    165deg,
+    rgb(169 53 246 / 5%),
+    rgb(251 128 255 / 10%),
+    rgb(129 171 243 / 15%),
+    rgb(155 234 127 / 20%)
+  );
+}

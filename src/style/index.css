@@ -5,8 +5,9 @@ body {
 
 div.container {
   margin: 3rem auto;
-  align-content: center;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -25,10 +26,13 @@ h2 {
   align-items: center;
 }
 
-form {
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: start;
+  gap: 2rem;
+}
+
+fieldset {
+  border: none;
 }
 
 label, input {

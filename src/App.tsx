@@ -1,12 +1,9 @@
 import ButtonDefault from "./borealis/buttondefault/ButtonDefault"
 import Dropdown from "./borealis/dropdown/Dropdown"
-// import Checkbox from "./borealis/form/Checkbox"
-// import Range from "./borealis/form/Range"
-// import Date from "./borealis/form/Date"
-// import Submit from "./borealis/form/Submit"
-// import Field from "./borealis/form/Field"
-// import Radio from "./borealis/form/Radio"
 import Form from "./borealis/form/Form"
+import Card from "./borealis/cards/Card"
+import Table from "./borealis/table/Table"
+
 function App() {
 
   return (
@@ -30,16 +27,22 @@ function App() {
       </div>
 
       <div className="container">
-        <h2>Forms</h2>
-        {/* <form>
-          <Checkbox />
-          <Range />
-          <Date />
-          <Submit />
-          <Field />
-          <Radio />
-        </form> */}
+        <h2>Form</h2>
         <Form />
+      </div>
+
+      <div className="container">
+        <h2>Cards</h2>
+        <div className="card-container">
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </div>
+
+      <div className="container">
+        <h2>Table</h2>
+        <Table />
       </div>
 
     </>

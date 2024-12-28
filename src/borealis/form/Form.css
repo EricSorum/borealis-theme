@@ -1,3 +1,16 @@
+:root {
+  --border-radius-amount: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  border: 1px solid rgb(240 240 240);
+  border-radius: var(--border-radius-amount);
+}
+
 .checkbox input {
   accent-color: rgb(251 128 255);
 }
@@ -24,8 +37,11 @@
   color: rgb(129 171 243 / 80%);
 
 }
+.date input::-webkit-datetime-edit-day-field {
+  color: rgb(251 128 255 / 60%);
+}
+
 /* .date input::-webkit-datetime-edit-week-field
-.date input::-webkit-datetime-edit-day-field
 .date input::-webkit-datetime-edit-hour-field
 .date input::-webkit-datetime-edit-minute-field
 .date input::-webkit-datetime-edit-second-field
@@ -38,11 +54,10 @@
 .radio input {
   border: 1px solid rgb(155 234 127);
   border-radius: 50%;
-  /* outline: 1px solid rgb(155 234 127); */
 
   color: rgb(240 240 240);
-  /* background-color: rgb(20 20 20); */
-  /* accent-color: rgb(20 20 20); */
+  accent-color: rgb(129 171 243 / 80%);
+  
   padding: 5px 8px;
 }
 
@@ -72,10 +87,44 @@
 
 }
 
+.radio-card-group {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.radio-card {
+  /* display: flex;
+  flex-direction: column; */
+  /* text-align: left; */
+  width: 200px;
+  border: 1px solid rgb(140 140 140);
+  border-radius: var(--border-radius-amount);
+  position: relative;
+}
+
+.radio-card:hover {
+  box-shadow: 0px 2px 2px rgb(155 234 127 / 40%);
+}
+
+
+.radio-card div {
+  margin: 1rem;
+}
+
+.radio-card input {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .submit button {
   border-radius: 10px;
   padding: .6rem 1.2rem;
   margin: 1rem;
+  background: rgb(20 20 20 );
+  color: rgb(240,240,240);
+  border: 1px solid rgb(20 20 20);
 }
 
 .submit button:hover {
