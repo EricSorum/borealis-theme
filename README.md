@@ -4,6 +4,6 @@ This page displays reusable React UI components that showcase the benefits of a 
 
 The page may be viewed at:
 
-https://borealis-theme-5367f37c2fa0.herokuapp.com/
+http://ericsorum.github.io/borealis-theme/
 
 Eric Sorum 2024

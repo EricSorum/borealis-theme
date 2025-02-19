@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://ericsorum.github.io/borealis-theme",
+  "homepage": "http://ericsorum.github.io/borealis-theme/",
   "scripts": {
     "dev": "vite",
     "start": "serve -s dist",
