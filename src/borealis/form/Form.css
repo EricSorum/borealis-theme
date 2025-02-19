@@ -24,10 +24,7 @@ form {
 .date input:hover {
   box-shadow: 1px 2px 2px rgb(155 234 127);
 }
-/* 
-.date input::-webkit-datetime-edit
-.date input::-webkit-datetime-edit-fields-wrapper
-.date input::-webkit-datetime-edit-text */
+
 
 .date input::-webkit-datetime-edit-year-field {
   color: rgb(155 234 127);
@@ -41,15 +38,57 @@ form {
   color: rgb(251 128 255 / 60%);
 }
 
-/* .date input::-webkit-datetime-edit-week-field
-.date input::-webkit-datetime-edit-hour-field
-.date input::-webkit-datetime-edit-minute-field
-.date input::-webkit-datetime-edit-second-field
-.date input::-webkit-datetime-edit-millisecond-field
-.date input::-webkit-datetime-edit-ampm-field
 
-.date input::-webkit-inner-spin-button
-.date input::-webkit-calendar-picker-indicator */
+.time input {
+  box-shadow: 1px 1px 1px rgb(155 234 127);
+  border-radius: 10px;;
+}
+
+.time input:hover {
+  box-shadow: 1px 2px 2px rgb(155 234 127);
+}
+
+
+.time input::-webkit-datetime-edit-year-field {
+  color: rgb(155 234 127);
+
+}
+.time input::-webkit-datetime-edit-month-field {
+  color: rgb(129 171 243 / 80%);
+
+}
+.time input::-webkit-datetime-edit-day-field {
+  color: rgb(251 128 255 / 60%);
+}
+
+.select 
+
+
+.selct select { 
+  width: 200px;
+  border: 1px solid rgb(140 140 140);
+  border-radius: var(--border-radius-amount);
+  position: relative;
+}
+
+.select select:hover {
+  box-shadow: 0px 2px 2px rgb(155 234 127 / 40%);
+}
+
+/* 
+.select div {
+  margin: 1rem;
+} */
+
+/* .select input {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+
+
+
+
 
 .radio input {
   border: 1px solid rgb(155 234 127);
