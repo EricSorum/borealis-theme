@@ -28,6 +28,11 @@ function App() {
       </div>
 
       <div className="container">
+        <h2>Table</h2>
+        <Table />
+      </div>
+      
+      <div className="container">
         <h2>Default Button</h2>
         <div>
           <ButtonDefault />
@@ -45,13 +50,6 @@ function App() {
         <h2>Form</h2>
         <Form />
       </div>
-
-
-      <div className="container">
-        <h2>Table</h2>
-        <Table />
-      </div>
-
 
     </>
   )
